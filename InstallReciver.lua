@@ -28,7 +28,7 @@ file2.close()
 
 --S
 libS = http.get(libSURL)
-libSFile = libA.readAll()
+libSFile = libS.readAll()
 
 local file3 = fs.open("lib/s", "w")
 file3.write(libSFile)
