@@ -6,7 +6,7 @@ local startupURL = "https://raw.githubusercontent.com/DPHonys/SenderReciver-Ener
 local reciverURL = "https://raw.githubusercontent.com/DPHonys/SenderReciver-EnergyPylon/master/Reciver/EnergyPylonReciver.lua"
 
 local libA, libK, libS, startup, reciver
-local libAFile, libKFile, libSFile startupFile, reciverFile
+local libAFile, libKFile, libSFile, startupFile, reciverFile
 
 fs.makeDir("lib")
 
