@@ -18,14 +18,12 @@ file1.close()
 startup = http.get(startupURL)
 startupFile = startup.readAll()
 
-
 local file2 = fs.open("startup", "w")
 file2.write(startupFile)
 file2.close()
 
 sender = http.get(senderURL)
 senderFile = sender.readAll()
-
 
 local file3 = fs.open("EnergyPylonSender.lua", "w")
 file3.write(senderFile)
